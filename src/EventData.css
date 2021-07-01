@@ -1,0 +1,17 @@
+.d3{
+    width:auto;
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: justify;
+}
+@media (min-width: 1000px) {
+    header {
+      align-items: center;
+      flex-direction: row;
+    }
+    /* ...  */
+  }
+  .urCity{
+
+    font-weight: 800;
+  }

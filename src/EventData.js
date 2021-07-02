@@ -2,6 +2,7 @@ import React from 'react'
 import './EventData.css'
 import Form from './Form';
 import { useState, useEffect } from 'react';
+import ReactPlayer from "react-player/lazy";
 export default function EventData({searchString}) {
    
     const API_URL =
@@ -35,7 +36,7 @@ export default function EventData({searchString}) {
                   <p className="urCity">{ele.city}</p>
                   <p>{ele.title}</p>
                   
-              {/* <a href={`/details/${ele.links}`} key={i}>{ele.links}</a> */}
+            
               <a href={ele.links}  rel='noopener'>{ele.links}alt="404"</a>
              
               </div>

@@ -2,7 +2,8 @@
     width:auto;
     border: 2px solid black;
     padding: 1rem;
-    text-align: justify;
+    text-align: center;
+    text-justify: auto;
 }
 @media (min-width: 1000px) {
     header {

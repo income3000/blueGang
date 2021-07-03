@@ -1,12 +1,17 @@
 .App {
   text-align: center;
+  text-overflow: inherit;
+  padding: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+img {
+  width: 100%;
+  height: 200px;
+}
 @media (min-width: 1000px) {
   header {
     align-items: center;
@@ -26,15 +31,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+#codeblue{
+  text-align: center;
+  color: blue;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textbar{
+  height: 50px;
+  width: 100px;
+
 }

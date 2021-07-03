@@ -1,13 +1,13 @@
 import React from 'react'
 import './EventData.css'
-import Form from './Form';
+
 import { useState, useEffect } from 'react';
-import ReactPlayer from "react-player/lazy";
+
 export default function EventData({searchString}) {
    
     const API_URL =
     "https://api.846policebrutality.com/api/incidents?&filter%5Bstate%5D=";
-    const [link, setLink] = useState();
+   
     
     const [results, setResults] = useState([]);
     const getData = async () => {

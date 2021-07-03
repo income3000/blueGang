@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+
+.textBar {
+    height: 150px;
+    width: 100px;
+    box-sizing: content-box;
+    
+}
+citybox{
+    height: 100px;
+    width: 200px;
+    border: 30px solid black;
+    align-items: center;
+}

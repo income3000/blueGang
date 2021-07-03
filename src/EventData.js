@@ -21,26 +21,25 @@ export default function EventData({searchString}) {
             console.log(err);
         }
       };
-  
-      
-      useEffect(() => {
+        useEffect(() => {
         getData(searchString);
       }, [searchString]);
-    return (
-        <div>{    
+  
+      
+        return (
+             <div>{    
            results.length &&
-        
-            results.map((ele, i) => {
-                return (
-              <div className="d3">
-                  <p className="urCity">{ele.city}</p>
-                  <p>{ele.title}</p>
-                  
-            
-              <a href={ele.links}  rel='noopener'>{ele.links}alt="404"</a>
-             
-              </div>
-        )})
-
+           results.map((ele, i) => {
+               return (
+             <div className="d3">
+                 <p className="urCity">{ele.city}</p>
+                 <p>{ele.title}</p>
+                 <a href={ele.links}  rel='noopener'>{ele.links}alt="404"</a>
+             </div>
+       )})
 }</div>)
 }
+        
+                  
+            
+             
